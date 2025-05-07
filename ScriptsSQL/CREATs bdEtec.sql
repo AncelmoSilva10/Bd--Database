@@ -1,0 +1,21 @@
+CREATE DATABASE bdEtec
+
+USE bdEtec
+
+CREATE TABLE tb2A (
+    RM INT PRIMARY KEY,
+    nomeAluno NVARCHAR(100),
+    status VARCHAR(10) 
+)
+
+CREATE TABLE tb2B (
+    RM INT PRIMARY KEY
+	,nomeAluno NVARCHAR(100)
+	,status VARCHAR(10)
+)
+
+CREATE TABLE tb3 (
+    RM INT PRIMARY KEY,
+    nomeAluno NVARCHAR(100)
+	,status VARCHAR(10)
+)
